@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.19/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <title>Architects</title>
+</head>
+<body>
+    <!-- nav bar start -->
+    <header>
+        <div class="navbar bg-base-100 px-5 lg:px-24 shadow-xl gap-7">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-xl lg:pl-8">
+                  <li><a href="index.html#home">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contactus.html">Contact us</a></li>
+                  <li><a href="login.html">Login</a></li>
+                </ul>
+              </div>
+              <a class="btn btn-ghost text-3xl lg:text-5xl font-bold">G3 Architects</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1 text-xl lg:pl-8">
+                <li><a href="index.html#home">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contactus.html">Contact us</a></li>
+                  <li><a href="login.html">Login</a></li>
+              </ul>
+            </div>
+          </div>
+    </header>
+    <main>
+        <!-- contact us section start -->
+        <section>
+          <div class="mx-5 lg:mx-24">
+            <div class="hero min-h-[80vh]">
+              <div class="hero-content flex-col lg:flex-row-reverse gap-10 lg:gap-18">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12273.47246978425!2d89.99963224189527!3d23.856789860007627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755f5ff711c19c7%3A0x1a4f42326ce841d2!2z4Ka44KeN4Kal4Ka-4Kao4KeA4Kav4Ka8IOCmuOCmsOCmleCmvuCmsCDgpqrgp43gprDgppXgp4zgprbgprIg4Kas4Ka_4Kat4Ka-4KaXICjgpo_gprLgppzgpr_gpofgpqHgpr8p!5e0!3m2!1sbn!2sbd!4v1702745165244!5m2!1sbn!2sbd"  height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="rounded-xl"></iframe>
+                <div class="border rounded-lg shadow-xl px-4 lg:px-10 py-4 lg:py-8">
+                  <h1 class="text-3x lg:text-4xl font-bold py-3 lg:py-8">Let's Feel free  & contact us...</h1>
+                  <div class="flex gap-5">
+                    <i class='bx bx-building-house text-2xl '></i>
+                    <p class="text-xl"> Road No: 01, Bewtha,Manikganj,Dhaka</p>
+                  </div>
+                  <div class="flex gap-5 ">
+                    <i class='bx bxs-phone text-2xl'></i>
+                    <p class="text-xl">+880 123456 7890</p>
+                  </div>
+                  <div class="flex gap-5 ">
+                    <i class='bx bx-mail-send text-2xl'></i>
+                    <p class="text-xl"> g3Architects@gmail.com</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+       <section id="contact">
+        <div class="hero min-h-screen  w-full mx-5 lg:mx-24">
+            <div class="hero-content flex-col lg:flex-row  gap-10 lg:gap-18">
+              <img src="assets/imges/contact.jpg" class="max-h-[80vh] rounded-lg  py-5" />
+              <div class="border rounded-lg shadow-lg px-4 lg:px-10 py-4 lg:py-8">
+                <!-- <h1 class="text-3xl font-bold py-6">Contact Us</h1> -->
+                <form action="#">
+                   <label for=""class="flex gap-2"><i class='bx bx-user text-2xl pt-2'></i> <input type="text" placeholder="Enter your Name" class="input input-bordered input-primary w-full max-w-xs required:" /></label> <br>
+
+                   <label for="" class="flex gap-2"><i class='bx bxl-gmail text-2xl pt-2'></i><input type="email" placeholder="Enter your email" class="input input-bordered input-primary w-full max-w-xs" /></label> <br>
+
+                   <label for="" class="flex gap-2 "><i class='bx bxs-edit text-2xl pt-4 w-10' ></i><textarea class="textarea textarea-primary textarea-md w-full max-w-xs" placeholder="Write your message"></textarea></label>
+                </form>
+                <div class="text-center my-8">
+                    <button class="btn btn-primary text-xl px-5"><i class='bx bx-left-arrow-alt ' ></i>Send message</button>
+                </div>
+              </div>
+            </div>
+          </div>
+       </section>
+    </main>
+    <!-- Footer section start -->
+    <footer class="footer p-10 0 text-base-content px-5 lg:px-24 grid grid-rows-2 grid-flow-col gap-4">
+      <nav>
+        <header class="footer-title">Services</header> 
+        <a class="link link-hover">Branding</a>
+        <a class="link link-hover">Design</a>
+        <a class="link link-hover">Marketing</a>
+        <a class="link link-hover">Advertisement</a>
+      </nav> 
+      <nav>
+        <header class="footer-title">G3 Architects</header> 
+        <a class="link link-hover" href="">Home</a>
+        <a class="link link-hover" href="">About</a>
+        <a class="link link-hover" href="">Contact Us</a>
+        <a class="link link-hover" href="">Login</a>
+      </nav> 
+      <form>
+        <header class="footer-title">Newsletter</header> 
+        <fieldset class="form-control w-80">
+          <label class="label">
+            <span class="label-text">Enter your email address</span>
+          </label> 
+          <div class="join">
+            <input type="text" placeholder="username@site.com" class="input input-bordered join-item" /> 
+            <button class="btn btn-primary join-item">Subscribe</button>
+          </div>
+        </fieldset>
+      </form>
+    </footer>
+    <script src="assets/js/tailwind.config.js"></script>
+</body>
+</html>

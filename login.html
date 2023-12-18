@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.19/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <title>Architects</title>
+</head>
+<body>
+    <!-- nav bar start -->
+    <header>
+        <div class="navbar bg-base-100 px-5 lg:px-24 shadow-xl">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-xl lg:pl-8">
+                  <li><a href="index.html#home">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contactus.html">Contact us</a></li>
+                  <li><a href="login.html">Login</a></li>
+                </ul>
+              </div>
+              <a class="btn btn-ghost text-3xl lg:text-5xl font-bold">G3 Architects</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1 text-xl lg:pl-8">
+                <li><a href="index.html#home">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contactus.html">Contact us</a></li>
+                  <li><a href="login.html">Login</a></li>
+              </ul>
+            </div>
+          </div>
+    </header>
+    <main>
+        <!-- Login section start -->
+       <section id="Login">
+        <div class="hero h-[60vh] mb-40 lg:mb-4 ">
+            <div class="hero-content flex-col lg:flex-row-reverse">
+              <div class="text-center lg:text-left">
+                <h1 class="text-5xl font-bold">Login now!</h1>
+                <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti <br>eaque aut repudiandae et a id nisi.</p>
+              </div>
+              <div class="card shrink-0 w-full max-w-sm shadow-2xl ">
+                <form class="card-body">
+                  <div class="form-control">
+                    <label class="label">
+                      <span class="label-text">Email</span>
+                    </label>
+                    <input type="email" placeholder="email" class="input input-bordered" required />
+                  </div>
+                  <div class="form-control">
+                    <label class="label">
+                      <span class="label-text">Password</span>
+                    </label>
+                    <input type="password" placeholder="password" class="input input-bordered" required />
+                    <label class="label">
+                      <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
+                    </label>
+                  </div>
+                  <div class="form-control mt-6">
+                    <button class="btn btn-primary">Login</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+       </section>
+    </main>
+    <!-- Footer section start -->
+    <footer class="footer p-10  text-base-content px-5 lg:px-24 pb-14 ">
+      <nav>
+        <header class="footer-title">Services</header> 
+        <a class="link link-hover">Branding</a>
+        <a class="link link-hover">Design</a>
+        <a class="link link-hover">Marketing</a>
+        <a class="link link-hover">Advertisement</a>
+      </nav> 
+      <nav>
+        <header class="footer-title">G3 Architects</header> 
+        <a class="link link-hover" href="#">Home</a>
+        <a class="link link-hover" href="#">About</a>
+        <a class="link link-hover" href="#">Contact Us</a>
+        <a class="link link-hover" href="#">Login</a>
+      </nav> 
+      <form>
+        <header class="footer-title">Newsletter</header> 
+        <fieldset class="form-control w-80">
+          <label class="label">
+            <span class="label-text">Enter your email address</span>
+          </label> 
+          <div class="join">
+            <input type="text" placeholder="username@site.com" class="input input-bordered join-item" /> 
+            <button class="btn btn-primary join-item">Subscribe</button>
+          </div>
+        </fieldset>
+      </form>
+    </footer>
+    <script src="assets/js/tailwind.config.js"></script>
+</body>
+</html>
